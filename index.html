@@ -5,30 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
     <div class="wrapper">
-    <h1>Sum Calculator</h1>
+        <h1>Sum Calculator</h1>
+         <div class="put-in">
+            <label>Enter First number</label>
+            <input id="n1"/>
+         </div>
+         <div class="put-in">
+             <label>Enter second number</label>
+             <input id="n2"/>
+    </div>
     <div class="put-in">
-        <label>Enter first number</label>
-
-        <input type="text" id="n1"/>
-        
- </div> 
-     <div class="put-in">
-        <label>Enter second number</label>
-        <input type="text" />
-     </div>
-<div class="btn">
-    <button onClick="calc()">Calculator
-    <buttom>Clear</buttom>
-</div>
-<p id="ans">Answer is shown here...</p>
-     </div>
-     <script src="javascripts.js"></script>
-     
+             <label>Enter third number</label>
+             <input id="n3"/>
+    </div>
+    <div class="btn">
+        <button onclick="calc()">Calculate Sum</button>
+        <button>Clear</button>
+    </div>
+    <p id="ans">Answer is shown here...</p>
 
     </div>
-
-
+    <script src="javascripts/scripts.js"></script>
 </body>
 </html>
